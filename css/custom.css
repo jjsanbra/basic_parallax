@@ -1,0 +1,52 @@
+* {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+body {
+	color: #fff;
+}
+
+/* Estilos para el Home */
+#home {
+	background: url("../images/fondo01.jpg") 50% 0 no-repeat fixed;
+}
+
+/* Estilos para la Página 01 */
+#pag01 {
+	background: url("../images/fondo02.jpg") 50% 0 no-repeat fixed;
+}
+
+/* Estilos para la Página 02 */
+#pag02 {
+	background: url("../images/fondo03.jpg") 50% 0 no-repeat fixed;
+}
+
+/* Todos los ID a 600px de alto */
+#home, #pag01, #pag02 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	max-width: 1920px;
+	min-height: 700px;
+	position: relative;
+	width: 100%;
+}
+
+#home, #pag02 {
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.slide {
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 150px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+	height: 250px;
+	position: absolute;
+	bottom: 575px;
+	left: 2.5%;
+	z-index: 100;
+	width: 95%;
+}
